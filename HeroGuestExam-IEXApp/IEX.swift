@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  IEX.swift
 //  HeroGuestExam-IEXApp
 //
 //  Created by Nelson Gonzalez on 5/23/19.
@@ -7,13 +7,10 @@
 //
 
 import Foundation
-import UIKit
+import ObjectMapper
 
-class ViewController: UIViewController{
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+
     
     
-}
+
+

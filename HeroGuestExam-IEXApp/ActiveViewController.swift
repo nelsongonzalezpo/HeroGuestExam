@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ActiveViewController.swift
 //  HeroGuestExam-IEXApp
 //
 //  Created by Nelson Gonzalez on 5/23/19.
@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 
-class ViewController: UIViewController{
+class ActiveViewController: UIViewController{
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

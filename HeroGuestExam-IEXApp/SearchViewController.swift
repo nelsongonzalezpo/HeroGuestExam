@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SearchViewController.swift
 //  HeroGuestExam-IEXApp
 //
 //  Created by Nelson Gonzalez on 5/23/19.
@@ -9,11 +9,12 @@
 import Foundation
 import UIKit
 
-class ViewController: UIViewController{
+class SearchViewController: UIViewController{
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    
 }

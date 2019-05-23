@@ -1,0 +1,6 @@
+framework module Pods_HeroGuestExam_IEXApp {
+  umbrella header "Pods-HeroGuestExam-IEXApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

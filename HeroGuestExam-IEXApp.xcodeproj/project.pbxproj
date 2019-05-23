@@ -3,12 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9BF81291D6CD40A2A185F0 /* Pods_HeroGuestExam_IEXAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7E19B08966C5F766BAE724 /* Pods_HeroGuestExam_IEXAppTests.framework */; };
+		7089F5CF032A7FE4D12ADB32 /* Pods_HeroGuestExam_IEXApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B6BE0B1FE4349B5FE83B33 /* Pods_HeroGuestExam_IEXApp.framework */; };
+		9F189B49907DFE4A596DCC85 /* Pods_HeroGuestExam_IEXAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6FEE10A7D0FD1C14FB2F1A /* Pods_HeroGuestExam_IEXAppUITests.framework */; };
+		AC0C4B69229755A900B07DD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B68229755A900B07DD3 /* ViewController.swift */; };
+		AC0C4B6B2297570F00B07DD3 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */; };
+		AC0C4B6D2297575C00B07DD3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */; };
+		AC3496F42296FA3E009AD38E /* IEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3496F32296FA3E009AD38E /* IEX.swift */; };
 		AC64A2372295C180000326AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2362295C180000326AB /* AppDelegate.swift */; };
-		AC64A2392295C180000326AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2382295C180000326AB /* ViewController.swift */; };
+		AC64A2392295C180000326AB /* GainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2382295C180000326AB /* GainersViewController.swift */; };
 		AC64A23C2295C180000326AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64A23A2295C180000326AB /* Main.storyboard */; };
 		AC64A23F2295C180000326AB /* HeroGuestExam_IEXApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC64A23D2295C180000326AB /* HeroGuestExam_IEXApp.xcdatamodeld */; };
 		AC64A2412295C184000326AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC64A2402295C184000326AB /* Assets.xcassets */; };
@@ -35,9 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EC00C3150B6994BCFE61433 /* Pods-HeroGuestExam-IEXApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp.release.xcconfig"; sourceTree = "<group>"; };
+		3490135D24E938907901A03F /* Pods-HeroGuestExam-IEXApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXApp.release.xcconfig"; path = "Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp.release.xcconfig"; sourceTree = "<group>"; };
+		37F3C30E8CF31DE17ACA18D0 /* Pods-HeroGuestExam-IEXAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroGuestExam-IEXAppUITests/Pods-HeroGuestExam-IEXAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38C779482AB8228D9E02920C /* Pods-HeroGuestExam-IEXAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroGuestExam-IEXAppTests/Pods-HeroGuestExam-IEXAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F0D0EB46C8103F9830B3B7E /* Pods-HeroGuestExam-IEXAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroGuestExam-IEXAppTests/Pods-HeroGuestExam-IEXAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EC62FB36BF90390E2BB405B /* Pods-HeroGuestExam-IEXAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HeroGuestExam-IEXAppUITests/Pods-HeroGuestExam-IEXAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		763D086F70D4BBCD72E34320 /* Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroGuestExam-IEXAppUITests/Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88B6BE0B1FE4349B5FE83B33 /* Pods_HeroGuestExam_IEXApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroGuestExam_IEXApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		927D3A0CBBD7F8F0E9E157EB /* Pods-HeroGuestExam-IEXAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppTests.release.xcconfig"; path = "Target Support Files/Pods-HeroGuestExam-IEXAppTests/Pods-HeroGuestExam-IEXAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9730A8C945DDAB797F8180D7 /* Pods-HeroGuestExam-IEXApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXApp.debug.xcconfig"; path = "Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0C4B68229755A900B07DD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
+		AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AC3496F32296FA3E009AD38E /* IEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEX.swift; sourceTree = "<group>"; };
 		AC64A2332295C180000326AB /* HeroGuestExam-IEXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeroGuestExam-IEXApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64A2362295C180000326AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC64A2382295C180000326AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC64A2382295C180000326AB /* GainersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainersViewController.swift; sourceTree = "<group>"; };
 		AC64A23B2295C180000326AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC64A23E2295C180000326AB /* HeroGuestExam_IEXApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroGuestExam_IEXApp.xcdatamodel; sourceTree = "<group>"; };
 		AC64A2402295C184000326AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +70,11 @@
 		AC64A2552295C184000326AB /* HeroGuestExam-IEXAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeroGuestExam-IEXAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64A2592295C184000326AB /* HeroGuestExam_IEXAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGuestExam_IEXAppUITests.swift; sourceTree = "<group>"; };
 		AC64A25B2295C184000326AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC53F31FD94E1B75B4F00D7 /* Pods-HeroGuestExam-IEXAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HeroGuestExam-IEXAppTests/Pods-HeroGuestExam-IEXAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6E1B90A39182DAAC2E5D8E /* Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeroGuestExam-IEXAppUITests/Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE30580D9473D5C0ABBE01AB /* Pods-HeroGuestExam-IEXApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroGuestExam-IEXApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CB7E19B08966C5F766BAE724 /* Pods_HeroGuestExam_IEXAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroGuestExam_IEXAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6FEE10A7D0FD1C14FB2F1A /* Pods_HeroGuestExam_IEXAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroGuestExam_IEXAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7089F5CF032A7FE4D12ADB32 /* Pods_HeroGuestExam_IEXApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9BF81291D6CD40A2A185F0 /* Pods_HeroGuestExam_IEXAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F189B49907DFE4A596DCC85 /* Pods_HeroGuestExam_IEXAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				AC64A24D2295C184000326AB /* HeroGuestExam-IEXAppTests */,
 				AC64A2582295C184000326AB /* HeroGuestExam-IEXAppUITests */,
 				AC64A2342295C180000326AB /* Products */,
+				C0316BA7C50785B9449CCD06 /* Pods */,
+				B6F251D3A5695D2B97A5ABB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +131,12 @@
 			isa = PBXGroup;
 			children = (
 				AC64A2362295C180000326AB /* AppDelegate.swift */,
-				AC64A2382295C180000326AB /* ViewController.swift */,
+				AC64A2382295C180000326AB /* GainersViewController.swift */,
+				AC0C4B68229755A900B07DD3 /* ViewController.swift */,
+				AC3496F32296FA3E009AD38E /* IEX.swift */,
 				AC64A23A2295C180000326AB /* Main.storyboard */,
+				AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */,
+				AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */,
 				AC64A2402295C184000326AB /* Assets.xcassets */,
 				AC64A2422295C184000326AB /* LaunchScreen.storyboard */,
 				AC64A2452295C184000326AB /* Info.plist */,
@@ -128,6 +163,35 @@
 			path = "HeroGuestExam-IEXAppUITests";
 			sourceTree = "<group>";
 		};
+		B6F251D3A5695D2B97A5ABB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88B6BE0B1FE4349B5FE83B33 /* Pods_HeroGuestExam_IEXApp.framework */,
+				CB7E19B08966C5F766BAE724 /* Pods_HeroGuestExam_IEXAppTests.framework */,
+				DE6FEE10A7D0FD1C14FB2F1A /* Pods_HeroGuestExam_IEXAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0316BA7C50785B9449CCD06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9730A8C945DDAB797F8180D7 /* Pods-HeroGuestExam-IEXApp.debug.xcconfig */,
+				3490135D24E938907901A03F /* Pods-HeroGuestExam-IEXApp.release.xcconfig */,
+				BAC53F31FD94E1B75B4F00D7 /* Pods-HeroGuestExam-IEXAppTests.debug.xcconfig */,
+				927D3A0CBBD7F8F0E9E157EB /* Pods-HeroGuestExam-IEXAppTests.release.xcconfig */,
+				BC6E1B90A39182DAAC2E5D8E /* Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig */,
+				6EC62FB36BF90390E2BB405B /* Pods-HeroGuestExam-IEXAppUITests.release.xcconfig */,
+				BE30580D9473D5C0ABBE01AB /* Pods-HeroGuestExam-IEXApp.debug.xcconfig */,
+				0EC00C3150B6994BCFE61433 /* Pods-HeroGuestExam-IEXApp.release.xcconfig */,
+				38C779482AB8228D9E02920C /* Pods-HeroGuestExam-IEXAppTests.debug.xcconfig */,
+				5F0D0EB46C8103F9830B3B7E /* Pods-HeroGuestExam-IEXAppTests.release.xcconfig */,
+				763D086F70D4BBCD72E34320 /* Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig */,
+				37F3C30E8CF31DE17ACA18D0 /* Pods-HeroGuestExam-IEXAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC64A25E2295C184000326AB /* Build configuration list for PBXNativeTarget "HeroGuestExam-IEXApp" */;
 			buildPhases = (
+				D5A4A2DB6C89A2CB79B1CAF1 /* [CP] Check Pods Manifest.lock */,
 				AC64A22F2295C180000326AB /* Sources */,
 				AC64A2302295C180000326AB /* Frameworks */,
 				AC64A2312295C180000326AB /* Resources */,
+				631A4D9132B89E4A4907990D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC64A2612295C184000326AB /* Build configuration list for PBXNativeTarget "HeroGuestExam-IEXAppTests" */;
 			buildPhases = (
+				7C671A6B20B624CDFF4673A1 /* [CP] Check Pods Manifest.lock */,
 				AC64A2462295C184000326AB /* Sources */,
 				AC64A2472295C184000326AB /* Frameworks */,
 				AC64A2482295C184000326AB /* Resources */,
@@ -170,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC64A2642295C184000326AB /* Build configuration list for PBXNativeTarget "HeroGuestExam-IEXAppUITests" */;
 			buildPhases = (
+				78B936FDFBBE9C913E39CDBD /* [CP] Check Pods Manifest.lock */,
 				AC64A2512295C184000326AB /* Sources */,
 				AC64A2522295C184000326AB /* Frameworks */,
 				AC64A2532295C184000326AB /* Resources */,
@@ -254,13 +322,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		631A4D9132B89E4A4907990D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroGuestExam-IEXApp/Pods-HeroGuestExam-IEXApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B936FDFBBE9C913E39CDBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroGuestExam-IEXAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C671A6B20B624CDFF4673A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroGuestExam-IEXAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A4A2DB6C89A2CB79B1CAF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroGuestExam-IEXApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC64A22F2295C180000326AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0C4B69229755A900B07DD3 /* ViewController.swift in Sources */,
+				AC0C4B6D2297575C00B07DD3 /* SearchViewController.swift in Sources */,
 				AC64A23F2295C180000326AB /* HeroGuestExam_IEXApp.xcdatamodeld in Sources */,
-				AC64A2392295C180000326AB /* ViewController.swift in Sources */,
+				AC0C4B6B2297570F00B07DD3 /* ActiveViewController.swift in Sources */,
+				AC64A2392295C180000326AB /* GainersViewController.swift in Sources */,
+				AC3496F42296FA3E009AD38E /* IEX.swift in Sources */,
 				AC64A2372295C180000326AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +580,7 @@
 		};
 		AC64A25F2295C184000326AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9730A8C945DDAB797F8180D7 /* Pods-HeroGuestExam-IEXApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +599,7 @@
 		};
 		AC64A2602295C184000326AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3490135D24E938907901A03F /* Pods-HeroGuestExam-IEXApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +618,7 @@
 		};
 		AC64A2622295C184000326AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC53F31FD94E1B75B4F00D7 /* Pods-HeroGuestExam-IEXAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +640,7 @@
 		};
 		AC64A2632295C184000326AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927D3A0CBBD7F8F0E9E157EB /* Pods-HeroGuestExam-IEXAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +662,7 @@
 		};
 		AC64A2652295C184000326AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6E1B90A39182DAAC2E5D8E /* Pods-HeroGuestExam-IEXAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +683,7 @@
 		};
 		AC64A2662295C184000326AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC62FB36BF90390E2BB405B /* Pods-HeroGuestExam-IEXAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
