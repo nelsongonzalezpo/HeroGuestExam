@@ -10,8 +10,12 @@ import UIKit
 import Alamofire
 
 
-class GainersViewController: UIViewController{
+class GainersViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    //Outlets
     
     //API Links
     let token: String = "pk_94213e6f1fe14ff2b177b2252f7cb20a"
@@ -21,8 +25,11 @@ class GainersViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
         // Do any additional setup after loading the view.
         obtenerDatos()
+        //print(symbol.count)
     }
     
    
@@ -61,6 +68,8 @@ class GainersViewController: UIViewController{
                     self.companyName.append(jsonProductCompanyName as! String)
                     self.calculationPrice.append(jsonProductCalculationPrice as! String)
                     self.week52High.append(jsonProductWeek52High as! NSNumber)
+                    
+                    self.tableView.reloadData()
 
                     
                 }
@@ -80,6 +89,7 @@ class GainersViewController: UIViewController{
                     print(self.calculationPrice[numero])
                     print(self.week52High[numero])
                     print("")
+                    //print(self.symbol.count)
                 }
                 
                 
@@ -93,6 +103,29 @@ class GainersViewController: UIViewController{
     
 
 }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.symbol.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //Use labels of cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier") as! ViewControllerTableViewCell
+        //cell?.textLabel?.text = postData[indexPath.row]
+        cell.mySymbol.text = "\(symbol[indexPath.row])"
+        cell.myCompanyName.text = "\(companyName[indexPath.row])"
+        
+        return cell
+        
+    }
+    
+    
+    
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
     
     
 

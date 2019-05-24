@@ -12,6 +12,25 @@ import UIKit
 class ViewControllerTableViewCell: UITableViewCell{
     
     
+    @IBOutlet weak var mySymbol: UILabel!
+    @IBOutlet weak var myCompanyName: UILabel!
+    
+    
+    @IBOutlet weak var mySymbolActive: UILabel!
+    @IBOutlet weak var myCompanyNameActive: UILabel!
+    
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    //Set row selected (Not used)
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
     
     
 }

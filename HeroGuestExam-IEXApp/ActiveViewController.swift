@@ -10,9 +10,11 @@ import Foundation
 import UIKit
 import Alamofire
 
-class ActiveViewController: UIViewController{
+class ActiveViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
-    ///stock/market/collection/list?collectionName=mostactive
+
+    //Outlets
+    @IBOutlet weak var tableView: UITableView!
     
     let token: String = "pk_94213e6f1fe14ff2b177b2252f7cb20a"
     let URL4use: String = "https://cloud.iexapis.com/stable/stock/market/list/mostactive?token=pk_94213e6f1fe14ff2b177b2252f7cb20a"
@@ -22,6 +24,10 @@ class ActiveViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         obtenerDatos()
     }
     
@@ -58,6 +64,8 @@ class ActiveViewController: UIViewController{
                     self.calculationPrice.append(jsonProductCalculationPrice as! String)
                     self.week52High.append(jsonProductWeek52High as! NSNumber)
                     
+                    self.tableView.reloadData()
+                    
                     
                 }
                 
@@ -88,6 +96,29 @@ class ActiveViewController: UIViewController{
         
         
         
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.symbol.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //Use labels of cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier") as! ViewControllerTableViewCell
+        //cell?.textLabel?.text = postData[indexPath.row]
+        cell.mySymbolActive.text = "\(symbol[indexPath.row])"
+        cell.myCompanyNameActive.text = "\(companyName[indexPath.row])"
+        
+        return cell
+        
+    }
+    
+    
+    
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
     
     
