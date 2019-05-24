@@ -23,6 +23,6 @@ target 'HeroGuestExam-IEXApp' do
   pod 'Alamofire'
   pod 'ObjectMapper'
   pod 'AlamofireObjectMapper'
-  pod 'ChartsRealm'
+
 
 end

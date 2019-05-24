@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeroGuestExam-IEXApp/SearchViewController.swift"
+            timestampString = "580368387.078601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SearchViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeroGuestExam_IEXApp.SearchViewController.URL4use.getter : Swift.String"
+                  moduleName = "HeroGuestExam-IEXApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nelsonglez/Desktop/Git/Github/HeroGuestExam-IEXApp/HeroGuestExam-IEXApp/SearchViewController.swift"
+                  timestampString = "580368351.494091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeroGuestExam_IEXApp.SearchViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HeroGuestExam_IEXApp.SearchViewController"
+                  moduleName = "HeroGuestExam-IEXApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nelsonglez/Desktop/Git/Github/HeroGuestExam-IEXApp/HeroGuestExam-IEXApp/SearchViewController.swift"
+                  timestampString = "580368351.504666"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HeroGuestExam_IEXApp.SearchViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HeroGuestExam_IEXApp.SearchViewController&gt;"
+                  moduleName = "HeroGuestExam-IEXApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nelsonglez/Desktop/Git/Github/HeroGuestExam-IEXApp/HeroGuestExam-IEXApp/SearchViewController.swift"
+                  timestampString = "580368351.5082771"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

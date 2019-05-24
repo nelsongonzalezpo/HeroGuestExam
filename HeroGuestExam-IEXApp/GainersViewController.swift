@@ -12,17 +12,19 @@ import Alamofire
 
 class GainersViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
+    //Outlets
     @IBOutlet weak var tableView: UITableView!
     
     
-    //Outlets
     
     //API Links
     let token: String = "pk_94213e6f1fe14ff2b177b2252f7cb20a"
     let URL4use: String = "https://cloud.iexapis.com/stable/stock/market/list/gainers?token=pk_94213e6f1fe14ff2b177b2252f7cb20a"
     var finalArray = [[String:Any]]()
+    var myIndex = 0
 
 
+    //ViewDidLoad - Loading Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
@@ -104,11 +106,13 @@ class GainersViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 }
     
+    //How many rows - 10
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.symbol.count
         
     }
     
+    //Assign Symbol and company name to the cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //Use labels of cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier") as! ViewControllerTableViewCell
@@ -120,11 +124,16 @@ class GainersViewController: UIViewController, UITableViewDelegate, UITableViewD
         
     }
     
-    
-    
-    
+    //Height for the Cell
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    
+    //Segue or transition between view controllers
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "showGraph", sender: Any?.self)
     }
     
     

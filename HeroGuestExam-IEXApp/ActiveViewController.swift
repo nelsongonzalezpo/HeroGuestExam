@@ -19,6 +19,7 @@ class ActiveViewController: UIViewController, UITableViewDelegate, UITableViewDa
     let token: String = "pk_94213e6f1fe14ff2b177b2252f7cb20a"
     let URL4use: String = "https://cloud.iexapis.com/stable/stock/market/list/mostactive?token=pk_94213e6f1fe14ff2b177b2252f7cb20a"
     var finalArray = [[String:Any]]()
+    var myIndex = 0
 
     
     
@@ -120,6 +121,13 @@ class ActiveViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
+    
+    //Segue or transition between view controllers
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "showGraph", sender: Any?.self)
+    }
+    
     
     
 }
