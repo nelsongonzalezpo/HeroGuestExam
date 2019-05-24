@@ -13,6 +13,7 @@
 		AC0C4B69229755A900B07DD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B68229755A900B07DD3 /* ViewController.swift */; };
 		AC0C4B6B2297570F00B07DD3 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */; };
 		AC0C4B6D2297575C00B07DD3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */; };
+		AC0C4B6F22979D3A00B07DD3 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6E22979D3A00B07DD3 /* ViewControllerTableViewCell.swift */; };
 		AC3496F42296FA3E009AD38E /* IEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3496F32296FA3E009AD38E /* IEX.swift */; };
 		AC64A2372295C180000326AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2362295C180000326AB /* AppDelegate.swift */; };
 		AC64A2392295C180000326AB /* GainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2382295C180000326AB /* GainersViewController.swift */; };
@@ -55,6 +56,7 @@
 		AC0C4B68229755A900B07DD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
 		AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AC0C4B6E22979D3A00B07DD3 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		AC3496F32296FA3E009AD38E /* IEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEX.swift; sourceTree = "<group>"; };
 		AC64A2332295C180000326AB /* HeroGuestExam-IEXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeroGuestExam-IEXApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64A2362295C180000326AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,11 +134,12 @@
 			children = (
 				AC64A2362295C180000326AB /* AppDelegate.swift */,
 				AC64A2382295C180000326AB /* GainersViewController.swift */,
+				AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */,
+				AC0C4B6E22979D3A00B07DD3 /* ViewControllerTableViewCell.swift */,
+				AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */,
 				AC0C4B68229755A900B07DD3 /* ViewController.swift */,
 				AC3496F32296FA3E009AD38E /* IEX.swift */,
 				AC64A23A2295C180000326AB /* Main.storyboard */,
-				AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */,
-				AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */,
 				AC64A2402295C184000326AB /* Assets.xcassets */,
 				AC64A2422295C184000326AB /* LaunchScreen.storyboard */,
 				AC64A2452295C184000326AB /* Info.plist */,
@@ -403,6 +406,7 @@
 			files = (
 				AC0C4B69229755A900B07DD3 /* ViewController.swift in Sources */,
 				AC0C4B6D2297575C00B07DD3 /* SearchViewController.swift in Sources */,
+				AC0C4B6F22979D3A00B07DD3 /* ViewControllerTableViewCell.swift in Sources */,
 				AC64A23F2295C180000326AB /* HeroGuestExam_IEXApp.xcdatamodeld in Sources */,
 				AC0C4B6B2297570F00B07DD3 /* ActiveViewController.swift in Sources */,
 				AC64A2392295C180000326AB /* GainersViewController.swift in Sources */,
