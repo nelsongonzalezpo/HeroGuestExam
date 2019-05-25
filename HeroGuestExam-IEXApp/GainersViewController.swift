@@ -78,10 +78,10 @@ class GainersViewController: UIViewController, UITableViewDelegate, UITableViewD
                 
                 
                 //Print test for dependencies
-//                print(self.symbol)
+                print(self.symbol)
 //                print(self.companyName)
 //                print(self.calculationPrice)
-//                print(self.week52High)
+                print(self.week52High)
 
                 
                 //TEST FOR EACH SUB "ARRAY"

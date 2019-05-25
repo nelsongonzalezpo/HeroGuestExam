@@ -72,10 +72,10 @@ class ActiveViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 
                 
                 //Print test for dependencies
-                //                print(self.symbol)
+                                print(self.symbol)
                 //                print(self.companyName)
-                //                print(self.calculationPrice)
-                //                print(self.week52High)
+//                                print(self.calculationPrice)
+                                print(self.week52High)
                 
                 
                 //TEST FOR EACH SUB "ARRAY"
@@ -125,7 +125,7 @@ class ActiveViewController: UIViewController, UITableViewDelegate, UITableViewDa
     //Segue or transition between view controllers
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         myIndex = indexPath.row
-        performSegue(withIdentifier: "showGraph", sender: Any?.self)
+        performSegue(withIdentifier: "showGraph2", sender: Any?.self)
     }
     
     

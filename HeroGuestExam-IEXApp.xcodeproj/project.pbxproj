@@ -15,6 +15,7 @@
 		AC0C4B6D2297575C00B07DD3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */; };
 		AC0C4B6F22979D3A00B07DD3 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B6E22979D3A00B07DD3 /* ViewControllerTableViewCell.swift */; };
 		AC0C4B712297AA3E00B07DD3 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C4B702297AA3E00B07DD3 /* GraphViewController.swift */; };
+		AC3503462298B961009F8BFD /* GraphViewMostActive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3503452298B961009F8BFD /* GraphViewMostActive.swift */; };
 		AC64A2372295C180000326AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2362295C180000326AB /* AppDelegate.swift */; };
 		AC64A2392295C180000326AB /* GainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64A2382295C180000326AB /* GainersViewController.swift */; };
 		AC64A23C2295C180000326AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC64A23A2295C180000326AB /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		AC0C4B6C2297575C00B07DD3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		AC0C4B6E22979D3A00B07DD3 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		AC0C4B702297AA3E00B07DD3 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		AC3503452298B961009F8BFD /* GraphViewMostActive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewMostActive.swift; sourceTree = "<group>"; };
 		AC64A2332295C180000326AB /* HeroGuestExam-IEXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeroGuestExam-IEXApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC64A2362295C180000326AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC64A2382295C180000326AB /* GainersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainersViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				AC0C4B6A2297570F00B07DD3 /* ActiveViewController.swift */,
 				AC0C4B6E22979D3A00B07DD3 /* ViewControllerTableViewCell.swift */,
 				AC0C4B702297AA3E00B07DD3 /* GraphViewController.swift */,
+				AC3503452298B961009F8BFD /* GraphViewMostActive.swift */,
 				AC64A23A2295C180000326AB /* Main.storyboard */,
 				AC64A2402295C184000326AB /* Assets.xcassets */,
 				AC64A2422295C184000326AB /* LaunchScreen.storyboard */,
@@ -411,6 +414,7 @@
 				AC64A23F2295C180000326AB /* HeroGuestExam_IEXApp.xcdatamodeld in Sources */,
 				AC0C4B6B2297570F00B07DD3 /* ActiveViewController.swift in Sources */,
 				AC64A2392295C180000326AB /* GainersViewController.swift in Sources */,
+				AC3503462298B961009F8BFD /* GraphViewMostActive.swift in Sources */,
 				AC64A2372295C180000326AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
